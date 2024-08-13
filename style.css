@@ -1,0 +1,138 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:#666;
+}
+.pimg1{
+    background-image: url("./images/background1.webp");
+    min-height: 100%;
+    
+    
+}
+
+
+.pimg1{       /*  ye bakcground1,bakcground2,background3 3no pr apply hoga */
+    position:relative;
+    background-position: center;   /* is sy background ki images a jaygi center ma*/
+    background-size: cover;  /* issy pori images a jaygi cutty beghair */
+    background-repeat: no-repeat; /* is sy background images bar bar repeat nhi hogi */
+    
+}
+.ptext{
+    position: absolute;
+    top: 50%;          /*  Parallax Website is main upr sy 50% ki space a jaigi */
+    width: 100%;
+    text-align: center;
+    color: black;         /*  "Parallax Website" ka color ho jaiga black */
+    font-size: 37px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textbg{
+    background-color: black;  /* "Parallax Website" k nichy ek box a jaiga black color ka */
+    color: white;              /*"Parallax Website" ka color ho jaiga white */  
+    padding: 10px;
+}
+
+.pimg2{
+    background-image: url("./images/background2.webp");
+    min-height: 100%;
+}
+
+.pimg2{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.textbg2{
+    background-color: black;    /* "explore the nature"k nichy ek box a jaiga black color ka */
+    color: white;
+    padding: 10px;
+
+}
+.ptext2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:black;         /*  "explore the nature" ka color ho jaiga black */
+    font-size: 37px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.pimg3{
+    background-image: url("./images/background3.webp");
+    min-height: 100%; 
+}
+.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.textbg3{
+    background-color: black;    /* "enjoy the nature"k nichy ek box a jaiga black color ka */
+    color: white;
+    padding: 10px;
+}
+.ptext3{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:black;         /*  "explore the nature" ka color ho jaiga black */
+    font-size: 37px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.pimg4{
+    background-image: url("./images/background4.webp");
+    min-height: 100%; 
+}
+.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.textbg4{
+    background-color: black;    /* "Let's save the nature"k nichy ek box a jaiga black color ka */
+    color: white;
+    padding: 10px;
+}
+.ptext4{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:black;         /*  "Let's save the nature" ka color ho jaiga black */
+    font-size: 37px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+h1{                           /*h1 pr kam ho rh hai */
+    text-align: center;
+    font-size: 37px;
+    text-transform: uppercase;
+    color: black;
+    padding: 20px;
+}
+p{                        /* paragraph pr kam ho rha hai */
+    color: black;
+    padding: 0 90px;
+    padding-bottom: 30px;
+    text-align: justify;
+    font-size: 20px;
+    letter-spacing: 1.2%;
+    
+}
+
+
