@@ -1,93 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Developer Landing Page</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <section class="colour_section">
-      <section class="hero_section">
-        <div class="text_container">
-          <h2>
-            Hi, I am<br />
-            <span class="john">John</span><br />
-            <span class="deo">Doe</span>
-          </h2>
-          <h1 class="full">FULL</h1>
-          <h1 class="stack">STACK</h1>
-          <h1 class="Developer">DEVELOPER</h1>
-        </div>
-      </section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h1>
+                Job Application
+            <span class="title_small">(Web)</span>
+        </h1>
+        <form action="">
+            <div class="form_container">
+                 <div class="form_control">       <!--ye pori first name wali -->
+                    <label  for="first_name">First Name</label>  <!-- for="first_name" issy ye hoga jb hum first_name pr click kren gy tu hm name waly box main chly jaingy  -->
+                    <input 
+                    id="first_name"
+                    name="first_name"
+                    placeholder="Enter Your First Name..."
+                    />
+                </div>   <!-- first name yaha tuk ha -->
+                
+                <div class="form_control">       <!--ye pori second name wali -->
+                    <label  for="second_name">Second Name</label>  <!-- for="second_name" issy ye hoga jb hum second_name pr click kren gy tu hm name waly box main chly jaingy  -->
+                    <input 
+                    id="second_name"
+                    name="second_name"
+                    placeholder="Enter Your Second Name..."
+                    />
+                </div>   <!-- second name yaha tuk ha -->
 
-      <section class="my_section">
-        <h1>The work, i can do for <span class="you">you</span></h1>
-      </section>
-    </section>
+                <div class="form_control">       <!--ye pori email wali -->
+                    <label  for="email">Email</label>  <!-- for="email" issy ye hoga jb hum email pr click kren gy tu hm name waly box main chly jaingy  -->
+                    <input 
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter Your Email..."
+                    />
+                </div>   <!-- email yaha tuk ha -->
+                
+                <div class="form_control">
+                    <label for="job_role">Job Role</label>  
+                    <select id="job_role" name="job_role">                        <!-- ye hm drop down list pr kam kr rhy hain -->
+                        <option value="">Select Job Role</option>
+                        <option value="frontend">Frontend Developer</option>
+                        <option value="backend">Backend Developer</option>
+                        <option value="fullstack">fullstack Developer</option>
+                        <option value="ui_ux">UI UX  Desinger</option>
+                    </select> 
+                </div>
+                <div class="textarea_control">
+                    <label for="address">Address</label>
+                    <textarea 
+                     name="address"
+                     id="address"
+                     rows="4" 
+                     cols="50" 
+                     placeholder="Enter Your Address">
+                    </textarea>
+                </div>  
 
-  <section class="colour_section2">
-    <!-- app wali picture ka ha ye -->
-    <section class="work1">
-      <div class="card1">
-        <div class="image_container1"></div>
-        <div class="card_content1">
-          <h3><b>App development</b></h3>
-          <p>
-            I am an App Developer. I can try my best to develop app for you with
-            the experience of four years therefore give me a chance to serve
-            you.
-          </p>
-        </div>
-      </div>
-    </section>
+                <div class="form_control">       <!--ye pori city wali -->
+                    <label  for="city">City</label>  
+                    <input 
+                    id="city"
+                    name="city"
+                    placeholder="Enter Your city..."
+                    />
+                </div>   <!-- city yaha tuk ha -->
 
-    <!-- web wali picture ka ha ye -->
-    <section class="work2">
-      <div class="card2">
-        <div class="image_container2"></div>
-        <div class="card_content2">
-          <h3> <b>Web development</b></h3>
-          <p>
-            I am an Web Developer. I can try my best to develop websites for you
-            with the experience of four years therefore give me a chance to
-            serve you.
-          </p>
-        </div>
-      </div>
-    </section>
+                <div class="form_control">       <!--ye pincode wali ha-->
+                    <label  for="pincode">Pincode</label>  <!-- for="first_name" issy ye hoga jb hum first_name pr click kren gy tu hm name waly box main chly jaingy  -->
+                    <input 
+                    type="number"      
+                    id="pincode"
+                    name="pincode"
+                    placeholder="Enter Your Pincode..."
+                    />
+                </div>   <!-- pincode yaha tuk ha -->
+                
+                <div class="form_control">       <!--ye  date wali ha-->
+                    <label  for="Date">Date</label>  
+                    <input 
+                    value="2024-08-11"    
+                    type="date"      
+                    id="date"
+                    name="date"
+                    />
+                </div>                 <!--  value ko use krty hain kisi date ko fix krny k liye -->
+                
+                <div class="form_control">       <!--ye  date wali ha-->
+                    <label  for="upload">Upload Your CV </label>  
+                    <input     
+                    type="file"      
+                    id="upload"
+                    name="upload"
+                    />
+                </div> 
 
-    <!-- uiux wali picture ka ha ye -->
-    <section class="work3">
-      <div class="card3">
-        <div class="image2_container3"></div>
-        <div class="card_content3">
-          <h3><b>UI UX development</b></h3>
-          <p>
-            I am an UI UX designer. I can try my best to design UI UX for you
-            with the experience of four years therefore give me a chance to
-            serve you.
-          </p>
-        </div>
-      </div>
-    </section>
-  </section>
-
-  <section class="about_section">
-    <div>
-      <div class="black_line">
-      <h2 class="about">Abou<span class="t">t</span></h2>
+            </div>
+            <div class="button_container">
+                <button type="submit">Apply Now</button>
+            </div>
+        </form>
+     </div>
     </div>
-    <div class="about_colour">
-      <h4>Why should you choose me?</h4>
-      <ul>
-        <li>I am dedicated towards my work.</li>
-        <li>I try my best to finish task on time.</li>
-        <li>I try to perform my task as per client's direction.</li>
-        <li>I try to remain more polite and respected with clients.</li>
-        <li>I am not perfect but I am dedicated and hardworking.</li>
-      </ul>
-    </div>
-  </section>  
-  </body>
+</body>
 </html>
