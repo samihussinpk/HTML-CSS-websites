@@ -1,138 +1,192 @@
-html,body{
-    height: 100%;
+*{                   /* jo browser ki editing hoti hai usko hmny khatm krdi */
     margin: 0;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.8em;
-    color:#666;
+    padding: 0;
+    box-sizing: border-box;
 }
-.pimg1{
-    background-image: url("./images/background1.webp");
-    min-height: 100%;
-    
-    
+html,body{
+    line-height: 1.4;
+    font-size: 300;
 }
-
-
-.pimg1{       /*  ye bakcground1,bakcground2,background3 3no pr apply hoga */
-    position:relative;
-    background-position: center;   /* is sy background ki images a jaygi center ma*/
-    background-size: cover;  /* issy pori images a jaygi cutty beghair */
-    background-repeat: no-repeat; /* is sy background images bar bar repeat nhi hogi */
-    
+.hero_section{
+    background-color: rgb(196, 168, 127);
 }
-.ptext{
-    position: absolute;
-    top: 50%;          /*  Parallax Website is main upr sy 50% ki space a jaigi */
-    width: 100%;
-    text-align: center;
-    color: black;         /*  "Parallax Website" ka color ho jaiga black */
-    font-size: 37px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-}
-
-.textbg{
-    background-color: black;  /* "Parallax Website" k nichy ek box a jaiga black color ka */
-    color: white;              /*"Parallax Website" ka color ho jaiga white */  
-    padding: 10px;
-}
-
-.pimg2{
-    background-image: url("./images/background2.webp");
-    min-height: 100%;
-}
-
-.pimg2{
-    position: relative;
+.hero_section{
+    background-image: url(images/background1.webp);
+    min-height: 100vh;   /* background picture ka size brh jaiga */
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: 800px;
+}
+h2{     /* "Hi, I am John Doe" is pr kam ho rha hai  */
+    font-size: 65px;
+    color: rgb(123, 93, 58);
+    -webkit-text-stroke: 1px black;   /* hi i am ka border ho jaiga black  */
+}
+
+.john{
+    margin: 0 26px;
+    color: rgb(123, 93, 58);
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px black;   /* john ka border ho jaiga black  */
+}
+.deo{
+    margin: 0 42px;
+    color: rgb(123, 93, 58);
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px black;  /* deo ka border ho jaiga black  */
+
+}
+
+.full{
+    text-align: right;
+    margin: 0 66px;
+    font-size: 37px;
+    color: rgb(123, 93, 58);
+    -webkit-text-stroke: 1px black;  /* full ka border ho jaiga black  */
+}
+.stack{
+    text-align: right;
+    margin: 0 52px;
+    font-size: 37px;
+    color: rgb(123, 93, 58);
+    -webkit-text-stroke: 1px black;  /* stack ka border ho jaiga black  */
+}
+.Developer{
+    text-align: right;
+    margin: 0 7px;
+    font-size: 35px;
+    color: rgb(123, 93, 58);
+    -webkit-text-stroke: 1px black;  /* Developer ka border ho jaiga black  */
+}
+.my_section{                        /* my section ka background ho jaiga black */
+    background-color: black;
+    padding: 10px;   /* issy  black box bara ho jaiga */
+}
+
+.my_section h1{                   /* "The work, i can do for" is pr kam ho rha hai */
+    color: white;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+ .my_section h1 span{               /*you pr km ho rha ha */
+    font-size: 90px;
+    color: rgb(123, 93, 58);
+
+}
+
+.image_container1{      /*  apps wali picture pr kam ho rha hai */
+    background-image: url("images/app1.webp");
+    background-position:left;
+    background-repeat: no-repeat;
+    min-height: 50vh;            /* isy height kam ya ziada hogi */
+    background-size: 400px;   /* issy picture ka size hoga kam ziada */
+
+}
+
+.image_container2{                 /*  web wali picture pr kam ho rha hai */
+    background-image: url("images/web.webp");
+    background-position:left;
+    background-repeat: no-repeat;
+    min-height: 50vh;            /* isy height kam ya ziada hogi */
+    background-size: 400px;   /* issy picture ka size hoga kam ziada */
+
+}
+/*  uiux wali picture pr kam ho rha hai */
+.image2_container3{
+    background-image: url("images/uiux.webp");
+    background-position:left;
+    background-repeat: no-repeat;
+    min-height: 50vh;            /* isy height kam ya ziada hogi */
+    background-size: 400px;   /* issy picture ka size hoga kam ziada */
+
+
+
+}
+.work1{
+    padding: 0 2%;
+    
+
+     
+}
+.card1{
+    
+    max-width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px black;
+    background-color: rgb(196, 168, 127);
+}
+
+.work2{
+    padding:0 36%;
+    
+}
+.card2{
+   
+   max-width: 350px;
+   height: 400px;
+   border-radius: 10px;
+   box-shadow: 3px 5px 5px black;
+   background-color: rgb(196, 168, 127);
+}
+
+.work3{
+    padding-left: 70%;
+    
+}
+.card3{
+   
+   max-width: 350px;
+   height: 400px;
+   border-radius: 10px;
+   box-shadow: 3px 5px 5px black;
+   background-color: rgb(196, 168, 127);
+}
+
+.colour_section2{
+    background-image: url("images/background2.webp");
+    background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.textbg2{
-    background-color: black;    /* "explore the nature"k nichy ek box a jaiga black color ka */
+p{
+    text-align:center;
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+.black_line{       /*about k sth black line a jaygi*/
     color: white;
-    padding: 10px;
+    background-color: black;
 
 }
-.ptext2{
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color:black;         /*  "explore the nature" ka color ho jaiga black */
-    font-size: 37px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-}
 
-.pimg3{
-    background-image: url("./images/background3.webp");
-    min-height: 100%; 
-}
-.pimg3{
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.textbg3{
-    background-color: black;    /* "enjoy the nature"k nichy ek box a jaiga black color ka */
+.about{
     color: white;
-    padding: 10px;
-}
-.ptext3{
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color:black;         /*  "explore the nature" ka color ho jaiga black */
-    font-size: 37px;
-    letter-spacing: 8px;
+    margin: 0 10%;
     text-transform: uppercase;
 }
-.pimg4{
-    background-image: url("./images/background4.webp");
-    min-height: 100%; 
-}
-.pimg4{
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.textbg4{
-    background-color: black;    /* "Let's save the nature"k nichy ek box a jaiga black color ka */
-    color: white;
-    padding: 10px;
-}
-.ptext4{
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color:black;         /*  "Let's save the nature" ka color ho jaiga black */
-    font-size: 37px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-}
-
-h1{                           /*h1 pr kam ho rh hai */
-    text-align: center;
-    font-size: 37px;
-    text-transform: uppercase;
+li{                            /*  lists pr kam ho rha hai */
     color: black;
-    padding: 20px;
+    font-size: large;
+    margin: 0 10%;
+
 }
-p{                        /* paragraph pr kam ho rha hai */
+h4{
     color: black;
-    padding: 0 90px;
-    padding-bottom: 30px;
-    text-align: justify;
-    font-size: 20px;
-    letter-spacing: 1.2%;
-    
+    font-size: large;
+    margin: 0 8%;
+
+}
+.about_colour{
+    background-color:rgb(196, 168, 127);
 }
 
-
+.t{       /* t pr kam ho rha ha */
+    color:rgb(123, 93, 58);
+    -webkit-text-stroke: 1px black;   /* T ka border ho jaiga black  */
+    font-size: 180%;
+}
